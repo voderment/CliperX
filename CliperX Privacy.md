@@ -25,7 +25,7 @@ Favicon preview: When you copy a URL, CliperX may fetch the website’s favicon 
 No analytics or tracking: We do not use analytics, ads, or tracking SDKs.
 Accessibility Permission
 
-CliperX uses macOS Accessibility permission only to listen for global keyboard and mouse events to enable the app’s global hotkey, keyboard navigation/selection, and dismissing the panel when you click outside. CliperX does not read screen contents, automate or control other apps, or access any data beyond the user’s clipboard.
+CliperX uses macOS Accessibility permission only for the optional “auto paste to active app” feature (pasting the copied item into the currently focused app). CliperX does not read screen contents, control other apps beyond issuing the paste command, or access any data beyond the user’s clipboard.
 Data Sharing
 
 We do not sell or share your clipboard data with third parties.
