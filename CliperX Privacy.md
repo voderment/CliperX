@@ -1,48 +1,83 @@
 Privacy Policy for CliperX
 
-Last updated: 2026-02-15
+Last updated: 2026-03-26
 
-CliperX is a clipboard manager. We take privacy seriously and design the app to keep your data on your device.
+CliperX is a clipboard manager for macOS. We design the app to keep your clipboard history under your control and to minimize data collection.
 
-Information We Collect
+1) Information We Process
 
-Clipboard content: When enabled, CliperX reads your system clipboard to build a history. This may include text, URLs, images, and file references.
-Source app privacy blocklist: You can manage blocked apps in Settings. If installed, Passwords and 1Password are added by default; you can also manually add or remove apps. Copy operations in blocked apps still work, but CliperX will skip collection from those apps.
-Screen-sharing visibility preference: You can choose whether CliperX windows are visible during screen sharing. This is off by default. When off, the panel, Settings window, and copy toast are hidden from screen sharing viewers.
-App settings: Preferences such as history limits, retention days, and UI options.
-Maximum Saved Items: Sets the maximum number of history items stored; when the limit is reached, the oldest items are removed.
-Retention Duration: Controls how long items are kept; items older than the selected duration are removed (Forever keeps items until you delete them or hit the maximum).
-No account data: CliperX does not require an account or collect personal profile information.
-How We Use Your Information
+- Clipboard history and payloads: text, links, images, files, and other clipboard formats needed to provide history, preview, search, and paste-back features.
+- Item metadata: timestamps, content type, source app name/bundle identifier (when available), custom group assignment, favorite/trash state, and display metadata such as summary text or symbols.
+- Settings: preferences such as history limit, retention period, language/appearance, panel behavior, sound effects, screen-sharing visibility, and paste behavior options.
+- Paste destination settings and actions: when you choose "To Clipboard" or "To Active Window", CliperX stores the destination preference and applies selected items according to that choice.
+- Extension data (when enabled):
+  - Screenshot Capture extension: captures screenshot content into history after required permission is granted.
+  - Mini Window Mode (floating quick panel): displays a compact panel near your workflow and supports fast insertion actions.
+- Permission-dependent processing:
+  - Screen Recording permission is used only for screenshot capture features.
+  - Accessibility permission is used only for active-window insertion and Mini Window Mode insertion into other apps.
+- Optional iCloud sync data: if iCloud sync is enabled, sync records are stored in your Apple CloudKit private database to keep your data consistent across your own devices.
+- Optional backup/import data: when you export a backup, CliperX packages your local app data into a backup file; when you import, CliperX reads the selected backup file to restore data.
+- URL preview network data: for link previews, CliperX may request webpage metadata and favicon resources from the target site and/or Google favicon service (`www.google.com/s2/favicons`).
 
-To show clipboard history and allow quick search, preview, and paste.
-To restore your history and settings between launches.
-Where Your Data Is Stored
+2) How We Use Information
 
-Local storage only: Clipboard history and previews are stored locally on your device (in Application Support).
-No cloud sync (currently): We do not upload your clipboard history to any server. iCloud sync is not available at this time.
-Network Access
+- Provide core product functions (capture, organize, preview, search, and reuse clipboard history).
+- Provide insertion workflows, including active-window apply and Mini Window Mode, based on your settings and granted permissions.
+- Provide extension capabilities such as screenshot capture when enabled by you.
+- Keep your settings and data available between launches.
+- Sync your data between your devices when iCloud sync is enabled.
+- Import/export backups only when you initiate those actions.
 
-Favicon preview: When you copy a URL, CliperX may fetch the website’s favicon to display a preview icon. This can contact the target site or Google’s favicon service (www.google.com/s2/favicons). This request may include the URL or domain to retrieve the icon.
-No analytics or tracking: We do not use analytics, ads, or tracking SDKs.
-Data Sharing
+3) Where Data Is Stored
 
-We do not sell or share your clipboard data with third parties.
-The only external requests are for favicon images, as described above.
-Data Retention
+- Local storage: app data is primarily stored on your Mac (for example under Application Support).
+- Permission status and extension preferences are stored locally to keep feature behavior consistent.
+- iCloud storage (optional): when enabled, sync data is stored in your CloudKit private database associated with your Apple ID.
+- Backup destination (user-chosen): exported backup files are written only to the location you select.
 
-Clipboard history is retained according to your settings (history limit and retention days). You can clear history at any time from within the app.
-Blocked apps do not generate new captured entries while they remain on the privacy blocklist.
-Privacy preferences related to blocklist management and screen-sharing visibility are stored locally on your device.
-Your Choices
+4) Data Sharing and Third Parties
 
-You can disable clipboard history, adjust retention settings, or clear stored items at any time.
-You can block specific source apps (including auto-protected password managers) so their clipboard content is not collected.
-You can temporarily enable/disable blocking for individual apps in the block list without removing them.
-You can decide whether CliperX windows are visible during screen sharing.
-You can disable URL previews if you do not want external favicon requests. (If this option is not currently exposed, we can add it.)
-Security
+- We do not sell your clipboard data.
+- We do not use advertising SDKs.
+- We do not share clipboard content with third-party analytics platforms.
+- Third-party processing may occur only as part of requested functionality:
+  - Apple services (CloudKit/APNs) for sync and push delivery.
+  - Website/metadata providers and favicon services for link preview resources.
 
-We store data locally on your device. We do not transmit clipboard contents to any server.
-Contact
-If you have questions, contact: voderment@icloud.com
+5) Retention and Deletion
+
+- Retention follows your in-app settings (maximum saved items and retention duration).
+- You can delete individual entries, clear history, or remove synced items by changing settings and data in the app.
+- Screenshot items captured by enabled extensions follow the same retention and deletion rules as other history items.
+- Data in blocked source apps is not newly captured while those apps remain blocked.
+
+6) Your Choices and Controls
+
+You can, at any time:
+
+- Enable or disable clipboard history features provided by the app.
+- Configure source-app privacy blocklist.
+- Adjust retention policies and maximum history size.
+- Choose how selected items are applied (to clipboard or to active window).
+- Enable or disable supported extensions (for example Screenshot Capture and Mini Window Mode).
+- Control whether app UI is visible during screen sharing.
+- Grant, deny, or revoke Screen Recording and Accessibility permissions in macOS System Settings.
+- Use or stop using iCloud sync.
+- Create, keep, or delete exported backups.
+
+7) Security
+
+We apply reasonable technical and organizational measures to protect data handled by the app. However, no method of storage or transmission is guaranteed to be 100% secure.
+
+8) Children's Privacy
+
+CliperX is not directed to children under 13, and we do not knowingly collect personal information from children.
+
+9) Policy Changes
+
+We may update this policy as features or legal requirements change. The "Last updated" date will reflect the latest revision.
+
+10) Contact
+
+If you have questions about this policy, contact: voderment@icloud.com
