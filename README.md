@@ -1,6 +1,6 @@
 # CliperX
 
-![Uploading image.png…]()
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/7f294507-fece-4453-b506-d10d4efaaa22" />
 
 CliperX is a privacy-first clipboard manager for macOS that helps you capture, organize, and quickly reuse what you copy.
 
