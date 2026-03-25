@@ -1,5 +1,7 @@
 # CliperX
 
+![Uploading image.png…]()
+
 CliperX is a privacy-first clipboard manager for macOS that helps you capture, organize, and quickly reuse what you copy.
 
 ## What CliperX Does
