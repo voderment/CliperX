@@ -1,6 +1,6 @@
 Privacy Policy for CliperX
 
-Last updated: 2026-03-26
+Last updated: 2026-03-27
 
 CliperX is a clipboard manager for macOS. We design the app to keep your clipboard history under your control and to minimize data collection.
 
@@ -10,12 +10,8 @@ CliperX is a clipboard manager for macOS. We design the app to keep your clipboa
 - Item metadata: timestamps, content type, source app name/bundle identifier (when available), custom group assignment, favorite/trash state, and display metadata such as summary text or symbols.
 - Settings: preferences such as history limit, retention period, language/appearance, panel behavior, sound effects, screen-sharing visibility, and paste behavior options.
 - Paste destination settings and actions: when you choose "To Clipboard" or "To Active Window", CliperX stores the destination preference and applies selected items according to that choice.
-- Extension data (when enabled):
-  - Screenshot Capture extension: captures screenshot content into history after required permission is granted.
-  - Mini Window Mode (floating quick panel): displays a compact panel near your workflow and supports fast insertion actions.
 - Permission-dependent processing:
-  - Screen Recording permission is used only for screenshot capture features.
-  - Accessibility permission is used only for active-window insertion and Mini Window Mode insertion into other apps.
+  - Accessibility permission is used only for active-window insertion into other apps.
 - Optional iCloud sync data: if iCloud sync is enabled, sync records are stored in your Apple CloudKit private database to keep your data consistent across your own devices.
 - Optional backup/import data: when you export a backup, CliperX packages your local app data into a backup file; when you import, CliperX reads the selected backup file to restore data.
 - URL preview network data: for link previews, CliperX may request webpage metadata and favicon resources from the target site and/or Google favicon service (`www.google.com/s2/favicons`).
@@ -23,8 +19,7 @@ CliperX is a clipboard manager for macOS. We design the app to keep your clipboa
 2) How We Use Information
 
 - Provide core product functions (capture, organize, preview, search, and reuse clipboard history).
-- Provide insertion workflows, including active-window apply and Mini Window Mode, based on your settings and granted permissions.
-- Provide extension capabilities such as screenshot capture when enabled by you.
+- Provide insertion workflows, including active-window apply, based on your settings and granted permissions.
 - Keep your settings and data available between launches.
 - Sync your data between your devices when iCloud sync is enabled.
 - Import/export backups only when you initiate those actions.
@@ -32,7 +27,7 @@ CliperX is a clipboard manager for macOS. We design the app to keep your clipboa
 3) Where Data Is Stored
 
 - Local storage: app data is primarily stored on your Mac (for example under Application Support).
-- Permission status and extension preferences are stored locally to keep feature behavior consistent.
+- Permission status and feature preferences are stored locally to keep behavior consistent.
 - iCloud storage (optional): when enabled, sync data is stored in your CloudKit private database associated with your Apple ID.
 - Backup destination (user-chosen): exported backup files are written only to the location you select.
 
@@ -49,7 +44,6 @@ CliperX is a clipboard manager for macOS. We design the app to keep your clipboa
 
 - Retention follows your in-app settings (maximum saved items and retention duration).
 - You can delete individual entries, clear history, or remove synced items by changing settings and data in the app.
-- Screenshot items captured by enabled extensions follow the same retention and deletion rules as other history items.
 - Data in blocked source apps is not newly captured while those apps remain blocked.
 
 6) Your Choices and Controls
@@ -60,9 +54,8 @@ You can, at any time:
 - Configure source-app privacy blocklist.
 - Adjust retention policies and maximum history size.
 - Choose how selected items are applied (to clipboard or to active window).
-- Enable or disable supported extensions (for example Screenshot Capture and Mini Window Mode).
 - Control whether app UI is visible during screen sharing.
-- Grant, deny, or revoke Screen Recording and Accessibility permissions in macOS System Settings.
+- Grant, deny, or revoke Accessibility permission in macOS System Settings.
 - Use or stop using iCloud sync.
 - Create, keep, or delete exported backups.
 

@@ -1,6 +1,6 @@
 Terms of Use for CliperX
 
-Last updated: 2026-03-26
+Last updated: 2026-03-27
 
 These Terms of Use ("Terms") govern your use of CliperX (the "App"). By downloading, installing, or using the App, you agree to these Terms.
 
@@ -28,13 +28,12 @@ You are responsible for:
 - Your use of the App is also governed by the CliperX Privacy Policy.
 - If iCloud sync is enabled, data is processed via Apple CloudKit private database services.
 - Link preview features may connect to target websites or favicon providers.
-- Feature-specific processing applies when enabled, including Screenshot Capture extension, Mini Window Mode, and active-window insertion.
+- Feature-specific processing applies when enabled, including active-window insertion.
 
-5) Permissions and Extensions
+5) Permissions
 
 - Some features require macOS permissions:
-  - Screen Recording for Screenshot Capture extension.
-  - Accessibility for Mini Window Mode and "To Active Window" insertion.
+  - Accessibility for "To Active Window" insertion.
 - By enabling these features, you authorize the App to perform the related local actions.
 - You can disable these features or revoke permissions at any time in app settings and macOS System Settings.
 
