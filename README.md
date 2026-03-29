@@ -12,6 +12,10 @@ CliperX is a privacy-first clipboard manager for macOS that helps you capture, o
 - Keeps your data local by default, with optional iCloud sync across your own devices.
 - Supports local backup export/import for migration and recovery.
 
+
+
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/2a691ae4-2b0d-435f-ba69-0fa2bd796268" />
+
 ## Productivity Features
 
 - **Apply Destination**: choose how item apply works:
@@ -26,6 +30,10 @@ CliperX is designed to minimize data collection and keep control in your hands.
 - iCloud sync is optional and uses Apple CloudKit private database when enabled.
 - Accessibility permission is required only for active-window insertion.
 - URL preview may request webpage metadata and favicon resources from target sites or favicon providers.
+
+
+
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e3d1b626-3378-48d2-a6b8-387bb233650c" />
 
 ## Data Management
 
