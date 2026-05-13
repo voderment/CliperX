@@ -1,46 +1,65 @@
 # CliperX
-CliperX is a privacy-first clipboard manager for macOS that helps you capture, organize, and quickly reuse what you copy.
 
+CliperX is a clipboard manager designed for the Apple ecosystem, helping you save, organize, and reuse important content across your devices.
 
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/7f294507-fece-4453-b506-d10d4efaaa22" />
+It brings clipboard history, snippets, and frequently used content into one clear place, so you can quickly find what you need and use it again when it matters.
 
+![CliperX sync across devices](assets/readme/cliperx-sync-devices.jpg)
 
 ## What CliperX Does
 
-- Saves clipboard history for text, links, images, files, and rich content.
-- Lets you search and preview items, then copy back with one action.
-- Supports favorites, custom groups, and recently deleted workflows.
-- Keeps your data local by default, with optional iCloud sync across your own devices.
-- Supports local backup export/import for migration and recovery.
+- Keeps copied, shared, or saved content available for later use.
+- Supports text, rich text, links, images, files, code, and rich previews for many everyday content types.
+- Lets you search, filter, preview, favorite, mark, group, delete, and restore clipboard items.
+- Uses iCloud to keep your clipboard data available across your Apple devices.
+- Provides local backup export and import for migration or recovery.
+- Focuses on speed, clarity, privacy, and user control.
 
+![CliperX content grid](assets/readme/cliperx-card-grid.jpg)
 
+## Platform Workflows
 
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/2a691ae4-2b0d-435f-ba69-0fa2bd796268" />
+### Mac
 
-## Productivity Features
+- Automatically saves clipboard history while CliperX is running.
+- Opens quickly from the menu bar without interrupting your workflow.
+- Supports flexible panel placement, including bottom and side layouts.
+- Can paste selected content into the active app when you explicitly trigger the action.
+- Supports sensitive app exclusions and screen-sharing privacy controls.
 
-- **Apply Destination**: choose how item apply works:
-  - **To Clipboard**: write selected content back to the clipboard.
-  - **To Active Window**: insert selected content directly into the frontmost app.
+![CliperX layout options](assets/readme/cliperx-layouts.jpg)
+
+### iPhone and iPad
+
+- Helps you browse, search, copy, and reuse saved content from your synced library.
+- Supports iOS-controlled save and reuse workflows, including share-sheet based saving and keyboard access where available.
+- Keeps the experience user-initiated, consistent with iOS clipboard privacy protections.
+
+## Rich Content Support
+
+CliperX is built for more than plain text. It can keep useful context around the things you save, including app links, web links, images, files, colors, snippets, code, and other structured content.
+
+![CliperX rich content previews](assets/readme/cliperx-enriched-content.jpg)
+
+## iCloud, Backup, and Import
+
+- Sync clipboard data across your own Apple devices with iCloud.
+- Export a local backup when you want a portable copy of your data.
+- Import a backup when migrating or recovering your library.
+
+![CliperX iCloud and backup](assets/readme/cliperx-icloud-backup.jpg)
 
 ## Privacy and Permissions
 
 CliperX is designed to minimize data collection and keep control in your hands.
 
 - Clipboard history is stored locally by default.
-- iCloud sync is optional and uses Apple CloudKit private database when enabled.
-- Accessibility permission is required only for active-window insertion.
+- iCloud sync uses Apple's private CloudKit database when enabled.
+- Accessibility permission on Mac is used only for user-triggered paste into the active app.
 - URL preview may request webpage metadata and favicon resources from target sites or favicon providers.
+- iOS clipboard-related workflows stay user-initiated and do not continuously monitor typing or background clipboard activity.
 
-
-
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e3d1b626-3378-48d2-a6b8-387bb233650c" />
-
-## Data Management
-
-- Configure maximum saved items and retention duration.
-- Delete individual items, clear history, and manage blocked source apps.
-- Export backups (`.cliperxbackup`) and import them when needed.
+Some features require iCloud to be enabled.
 
 ## Contact
 
@@ -48,5 +67,5 @@ Support: voderment@icloud.com
 
 ## Legal
 
-- Privacy Policy: `CliperX Privacy.md`
-- Terms of Use: `CliperX Terms of Use.md`
+- [Privacy Policy](CliperX%20Privacy.md)
+- [Terms of Use](CliperX%20Terms%20of%20Use.md)
