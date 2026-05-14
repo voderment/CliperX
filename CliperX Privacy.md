@@ -11,6 +11,7 @@ Features may vary by platform. On Mac, CliperX can automatically save clipboard 
 - Clipboard history, saved content, and payloads: text, links, images, files, rich text, code, symbols, and other supported formats needed to provide history, preview, search, sync, copy, and paste-back features.
 - Item metadata: timestamps, content type, source app name/bundle identifier when available, custom group or mark assignment, favorite/trash state, and display metadata such as summary text, preview metadata, symbols, or source app icons.
 - Settings: preferences such as history limit, retention period, language/appearance, panel behavior, sound effects, screen-sharing visibility, tap/copy behavior, keyboard behavior, and paste behavior options.
+- Purchase and entitlement status: if you use an in-app purchase to unlock optional features, CliperX may check App Store/StoreKit entitlement status for the relevant product. Payment details are processed by Apple and are not collected by CliperX.
 - Mac clipboard and paste actions:
   - On Mac, CliperX may monitor the system pasteboard while running to save clipboard history according to your settings.
   - When you choose "Copy to Clipboard" or "Paste into Active App", CliperX stores the destination preference and applies selected items according to that choice.
@@ -33,6 +34,7 @@ Features may vary by platform. On Mac, CliperX can automatically save clipboard 
 - Provide core product functions: capture or save content, organize items, preview content, search history, sync data, copy items again, and reuse saved content.
 - Provide Mac insertion workflows, including "Paste into Active App", based on your settings and granted permissions.
 - Provide iOS and iPadOS save and reuse workflows, including share extension and keyboard extension access where available.
+- Verify optional paid feature access and restore eligible purchases through Apple's StoreKit services.
 - Keep your settings and data available between launches.
 - Sync your data between your devices when iCloud sync is enabled.
 - Import/export backups only when you initiate those actions.
@@ -53,6 +55,7 @@ Features may vary by platform. On Mac, CliperX can automatically save clipboard 
 - We do not share clipboard content with third-party analytics platforms.
 - Third-party processing may occur only as part of requested functionality:
   - Apple services such as CloudKit, APNs, iCloud, and system extension frameworks for sync, push delivery, storage, and platform workflows.
+  - Apple App Store and StoreKit services for in-app purchases, entitlement checks, and purchase restoration.
   - Website, metadata, media lookup, and favicon providers for link and rich-preview resources.
 
 5) Retention and Deletion
